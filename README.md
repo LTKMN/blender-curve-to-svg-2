@@ -9,12 +9,12 @@ So Claude and I adapted it for 3.6+
 - Download .py file from this repo 
 - Go to Add-ons tab in the User Preferences
 - Click Install Add-on from File...
-- Find and select curve_to_svg.py
+- Find and select curve_to_svg_modern_2.py
 - Enable the add-on by clicking on its checkbox
 
 # Usage
 
-First select your curve object that you want to export, and then under Export -> Curves to SVG
+First select your curve object that you want to export, and then under File -> Export -> Curves to SVG
 
 There's a few options in the top right of the export dialogue box.
 
