@@ -24,7 +24,7 @@ There's a few options in the top right of the export dialogue box.
 
 - Minify: exports as a single line instead of nice XML formatting. Personally, I was looking through the SVG code itself during this process, so my default is for verbose file export.
 
-- Include fill: this was a feature from the original repo but I actually don't think it works right now for modern Blender because it's looking at the colour value for the material, not for the colour value of a node-based BSDF shader. It would be trivial to add this lookup into the loop, but for my uses I don't care about colour at all so this will have to remain a to-do. Worst case, if colour was important, you can manually add it to your SVG file by opening and editing it as text. The fill="#ffffff" stroke="#ffffff" stroke-width="1.00" values are right there. It'd just be nice to automate this on export. If you're doing fancy art with gradients and stuff you can open the file in Illustrator or Inkscape.
+- Include fill: this was a feature from the original repo but I actually don't think it works right now for modern Blender because it's looking at the colour value for the material, not for the colour value of a node-based BSDF shader. It would be trivial to add this lookup into the loop, but for my uses (laser cutting and CNC files) I don't care about colour at all so this will have to remain a to-do. Worst case, if colour was important, you can manually add it to your SVG file by opening and editing it as text. The fill="#ffffff" stroke="#ffffff" stroke-width="1.00" values are right there. It'd just be nice to automate this on export. If you're doing fancy art with gradients and stuff you can open the file in Illustrator or Inkscape.
 
 # Troubleshooting
 
